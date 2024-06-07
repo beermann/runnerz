@@ -49,7 +49,7 @@ theme:
         name: Switch to system preference
 plugins:
   - blog:
-      authors_file: "{blog}/.authors.yml"
+      #authors_file: .authors.yml
       authors: true
   - social:
       #cards_layout: default

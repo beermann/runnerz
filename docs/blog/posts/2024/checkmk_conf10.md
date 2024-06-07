@@ -1,7 +1,7 @@
 ---
 title: The Checkmk Conference 10
 date: 2024-05-01
-author:
+authors:
   - beermann
 categories:
   - talk
