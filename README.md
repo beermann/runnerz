@@ -1,1 +1,1 @@
-All about the mkdocs website.
+Make the docs of the stuffs.
