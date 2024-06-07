@@ -6,8 +6,7 @@ edit_uri: edit/main/docs
 
 nav:
 #  - Home: index.md
-  - Blog:
-    - blog/index.md
+  - News and Updates: blog/index.md
   - About: about.md
 
 theme:
@@ -49,7 +48,11 @@ theme:
         icon: material/brightness-4
         name: Switch to system preference
 plugins:
-  - blog
+  - blog:
+      authors_file: "{blog}/.authors.yml"
+      authors: true
+  - social:
+      #cards_layout: default
 
 markdown_extensions:
   - tables
@@ -78,8 +81,18 @@ extra_javascript:
 
   - https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js
   - javascripts/tablesort.js
+extra:
+  social:
+      - icon: 'fontawesome/brands/github'
+        link: 'https://github.com/beermann'
+        name: Beermann on GitHub
+      - icon: 'fontawesome/brands/linkedin'
+        link: 'https://dk.linkedin.com/in/sunebeermann'
+        name: Sune Beermann
+      - icon: 'fontawesome/regular/square-check'
+        link: 'https://forum.checkmk.com/'
+        name: Beermann
 
-#extra:
 # consent:
 #   title: Cookie consent
 #   description: >- 
