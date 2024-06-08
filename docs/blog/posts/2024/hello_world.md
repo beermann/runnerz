@@ -5,3 +5,5 @@ authors:
 ---
 
 # Hello world!
+
+The first post on MKdocs, I think I am going to like it.

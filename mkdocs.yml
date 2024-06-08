@@ -1,18 +1,20 @@
-site_name: _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
+site_name: Sune Beermann
 site_url: https://runnerz.org/
 repo_url: https://github.com/beermann/runnerz
 repo_name: beermann/runnerz
 edit_uri: edit/main/docs
 
 nav:
-#  - Home: index.md
-  - News and Updates: blog/index.md
+  - News: blog/index.md
   - About: about.md
 
 theme:
   name: material
   logo: assets/logo.png
   favicon: assets/favicon.png
+  font:
+    text: Roboto Mono
+  language: en
   features:
     - content.action.edit
     - content.core.copy
@@ -21,6 +23,9 @@ theme:
     - navigation.tabs.sticky
     - navigation.expand
     - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
   icon:
     repo: fontawesome/brands/github
     edit: material/pencil
@@ -35,7 +40,7 @@ theme:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default 
-      primary: grey
+      primary: gray
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -53,6 +58,7 @@ plugins:
       authors: true
   - social:
       #cards_layout: default
+  - search:
 
 markdown_extensions:
   - tables
@@ -93,10 +99,10 @@ extra:
         link: 'https://forum.checkmk.com/'
         name: Beermann
 
-# consent:
-#   title: Cookie consent
-#   description: >- 
-#     We use cookies to recognize your repeated visits and preferences, as well
-#     as to measure the effectiveness of our documentation and whether users
-#     find what they're searching for. With your consent, you're helping us to
-#     make our documentation better.
+ #consent:
+ #  title: Cookie consent
+ #  description: >- 
+ #    We use cookies to recognize your repeated visits and preferences, as well
+ #    as to measure the effectiveness of our documentation and whether users
+ #    find what they're searching for. With your consent, you're helping us to
+ #    make our documentation better.
