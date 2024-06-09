@@ -5,8 +5,8 @@ repo_name: beermann/runnerz
 edit_uri: edit/main/docs
 
 nav:
+#  - Home: index.md
   - News: blog/index.md
-  - About: about.md
 
 theme:
   name: material
