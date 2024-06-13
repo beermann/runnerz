@@ -3,3 +3,4 @@ material-plausible-plugin
 pillow
 cairosvg
 cairocffi
+mkdocs-glightbox
